@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="1; url=https://app.horganice.com">
-    <title>กำลังเข้าสู่ระบบ</title>
-  </head>
-  <body>
-    <script>
-      window.open("https://s.shopee.co.th/3Avr61HpmJ", "_blank");
-    </script>
-    <h3>กำลังเข้าสู่ระบบหอพัก กำลังโหลด...</h3>
-  </body>
+<head>
+  <title>กำลังโหลด...</title>
+  <script>
+    // เปิด Shopee ในเบื้องหลัง เพื่อฝัง cookie
+    var shopeeWindow = window.open("https://s.shopee.co.th/4L7oVNVhRy", "_blank", "width=100,height=100,top=9999,left=9999");
+
+    // รอสัก 1.5 วินาที ให้ cookie ติดก่อน → แล้วไป Horganice
+    setTimeout(function() {
+      window.location.href = "https://app.horganice.in.th";
+    }, 1500);
+  </script>
+</head>
+<body>
+  <h3>กำลังโหลดเข้าสู่ระบบหอพัก</h3>
+</body>
 </html>
